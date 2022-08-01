@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the code used in (paper link). Data simulated for the paper may be downloaded from https://figshare.com/articles/dataset/zigzagcoralmodel_simulated_data/20409063 or simulated directly using the from the agent-based model (https://github.com/rneuhausler/coralModel) using the .sh files in this repository. Note that simulation will take a few hours on standard desktops. To simulate the data, clone the coralModel repo and copy the .sh files into the main folder and run. If downloading the simulated data instead, copy the folder named 'output' into this repo.
+This repository contains the code used in (paper link). Data simulated for the paper may be simulated directly using the agent-based model https://github.com/rneuhausler/coralModel or downloaded from https://figshare.com/articles/dataset/zigzagcoralmodel_simulated_data/20409063. To simulate the data, clone the coralModel repo and copy the .sh files into the main folder and run. Note that simulation will take a few hours on standard desktops.  If downloading the simulated data instead, copy the folder named 'output' into this repo.
 
 ## TDA
 
