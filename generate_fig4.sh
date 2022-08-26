@@ -40,9 +40,6 @@ do
     # create directory
     grazingFolder=$(python -c "print(str(round($g*100)))")
     thresholdFolder=$(python -c "print(int($neighborhoodThreshold*100))")
-    mkdir -p 'output'/$rows'x'$columns/'grid'$gridOption/'grazing'$grazingFolder/'threshold'$thresholdFolder/
-    # run simulation
-    python coralModel_functions.py $numberOfProcessors $numberOfSimulations $coralPercent $macroalgaePercent $gridOption $rows $columns $neighborhoodThreshold $recordRate $imageReturn $imageRecordRate $r $d $a $g $y $dt $tf $blobValue $organism $group $denoise1 $denoise2 $compute_wasserstein
 
     # create directory for bars
     mkdir -p 'output'/$rows'x'$columns/'grid'$gridOption/'grazing'$grazingFolder/'threshold'$thresholdFolder/'bars'

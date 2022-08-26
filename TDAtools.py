@@ -365,11 +365,11 @@ def ph_barcode(ax, image, fontdict,
     # option to include legend
     if show_legend:
         ax.legend(bbox_to_anchor=(1, -.1), fontsize=fontdict['fontsize'])
-        ax.set_xlabel("no. of \n coral-coral \n neighbors", fontdict=fontdict)
-        ax.xaxis.set_label_coords(.2, -.15)
+        ax.set_xlabel("$C_i^\ell$", fontdict=fontdict)
+        ax.xaxis.set_label_coords(.3, -.15)
 
     else:
-        ax.set_xlabel("no. of \n coral-coral \n neighbors", fontdict=fontdict)
+        ax.set_xlabel("$C_i^\ell$", fontdict=fontdict)
 
     # modify plot
     ax.set_yticks([])
