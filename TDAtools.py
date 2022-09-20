@@ -91,7 +91,7 @@ def coral_to_bool(coral_image, organism, group, denoise1=0, denoise2=99):
         coral_bool = np.logical_or(coral_bool, coral_image == organism)
 
         # If denoising is selected, remove some nodes
-        if denoise1 > 1 or denoise2 < 99:
+        if denoise1 >= 1 or denoise2 <= 99:
             conc_profile = binary_to_profile(coral_bool)
             coral_bool = np.logical_and(conc_profile >= denoise1, conc_profile <= denoise2)
 
@@ -365,15 +365,15 @@ def ph_barcode(ax, image, fontdict,
     # option to include legend
     if show_legend:
         ax.legend(bbox_to_anchor=(1, -.1), fontsize=fontdict['fontsize'])
-        ax.set_xlabel("$C_i^\ell$", fontdict=fontdict)
-        ax.xaxis.set_label_coords(.3, -.15)
+        ax.set_xlabel("direct coral \n neighbors", fontdict=fontdict)
+        ax.xaxis.set_label_coords(.275, -.15)
 
     else:
-        ax.set_xlabel("$C_i^\ell$", fontdict=fontdict)
+        ax.set_xlabel("direct coral neighbors", fontdict=fontdict)
 
     # modify plot
     ax.set_yticks([])
-    ax.set_aspect(aspect=xmax - 0.5, adjustable='box')
+    #ax.set_aspect(aspect=xmax - 0.5, adjustable='box')
 
     return ax
 

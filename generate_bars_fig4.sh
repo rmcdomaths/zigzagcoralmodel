@@ -16,7 +16,7 @@ imageRecordRate=1
 r=1.0
 d=.4
 a=.2
-g=.54
+g=.53
 y=.75
 dt=.1
 tf=21
@@ -25,7 +25,7 @@ blobValue=0
 # Zig-zag parameters
 organism=0
 group=1
-denoise1=1
+denoise1=8
 denoise2=99
 compute_wasserstein=0
 isUnion=0
