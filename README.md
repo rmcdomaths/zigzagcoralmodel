@@ -1,8 +1,8 @@
-# Zig-zag persistence quantifies the resilience of spatial patterns in a coral reef model
+# Zig-zag persistence of a stochastic, spatial model for coal reefs
 
 ## Overview
 
-This repository contains the code used in (paper link). Data simulated for the paper may be simulated directly using the agent-based model https://github.com/rneuhausler/coralModel-TDA-study or downloaded from https://figshare.com/articles/dataset/zigzagcoralmodel_simulated_data/20409063. To simulate the data, clone the coralModel repo and run the generate_figX.sh files (X = 1,2,3,4,5). Note that simulation will take a few hours on standard desktops.  If downloading the simulated data from figshare instead, copy the folder named 'output' into this repo.
+This repository contains the code used in https://arxiv.org/abs/2209.08974. Data simulated for the paper may be simulated directly using the agent-based model https://github.com/rneuhausler/coralModel-TDA-study or downloaded from https://figshare.com/articles/dataset/zigzagcoralmodel_simulated_data/20409063. To simulate the data, clone the coralModel repo and run the generate_figX.sh files (X = 1,2,3,4,5). Note that simulation will take a few hours on standard desktops.  If downloading the simulated data from figshare instead, copy the folder named 'output' into this repo.
 
 ## TDA
 
